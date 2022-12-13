@@ -1,0 +1,15 @@
+n=int(input("enter how many elements you want to enter: "))
+l=[]                                          #for integers
+for i in range(n):
+    x=int(input("enter some integers: "))
+    l.append(x)
+list=set(l)
+print(list)
+
+m=int(input("enter how many elements you want to enter: "))
+p=[]                                          #for strings
+for i in range(m):
+    y=input("enter some strings: ")
+    p.append(y)
+list1=set(p)
+print(list1)
